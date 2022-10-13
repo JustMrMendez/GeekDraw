@@ -1,1 +1,41 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  height: 32rem;
+  width: 21.5rem;
+  background-color: white;
+  border-radius: 25px;
+  position: relative;
+}
+
+/* .card > div {
+  font-size: 3rem;
+} */
+
+.card > div:last-child {
+  position: absolute;
+  top: 43%;
+  left: 45%;
+  font-size: 4rem;
+}
+
+#icon {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  width: 3.5rem;
+  fill: red;
+}
+#icon2 {
+  position: absolute;
+  bottom: 12px;
+  right: 25px;
+  width: 3.5rem;
+  fill: red;
+}
