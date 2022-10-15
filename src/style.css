@@ -5,6 +5,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
 }
 .card {
   height: 32rem;
@@ -27,15 +28,16 @@ body {
 
 #icon {
   position: absolute;
-  top: 25px;
+  top: 0px;
   left: 25px;
   width: 3.5rem;
   fill: red;
 }
 #icon2 {
   position: absolute;
-  bottom: 12px;
+  bottom: 0px;
   right: 25px;
   width: 3.5rem;
   fill: red;
+  transform: rotate(180deg);
 }
